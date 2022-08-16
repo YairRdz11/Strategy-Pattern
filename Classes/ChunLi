@@ -1,0 +1,9 @@
+public class ChunLi : Fighter
+{
+    public ChunLi(KickBehavior kickBehavior, JumpBehavior jumpBehavior):
+    base(kickBehavior, jumpBehavior) {}
+    public override void Display()
+    {
+        Console.WriteLine("ChunLi");
+    }
+}
